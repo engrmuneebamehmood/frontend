@@ -1,4 +1,5 @@
-h1{
+
+/*h1{
     color: blue;
    background-color: yellow;
 } 
@@ -9,3 +10,21 @@ button{
     background-color: seagreen;
     color: azure;
 }
+    */
+
+    .myparagrapgh{
+
+        color:orange;
+    }
+    .newclass{
+        background-color: aquamarine;
+        color: red;
+    }
+
+    div{
+        height: 100px;
+        width :100p;
+        background-color: blueviolet;
+        color: white;
+        border: 1px solid;
+    }

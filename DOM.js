@@ -51,10 +51,27 @@ console.log(document.body.childNodes[1])
 //by id, class or tag
 
 //by query selector /// it returns node list
-
+/*
 let ele=document.querySelectorAll("p")
 console.dir(ele)
 console.log(ele)
 
 console.log(document.querySelectorAll(".heading2"))
 console.log(document.querySelectorAll("#heading"))
+*/
+
+let btn=document.createElement("button");
+btn.innerText="register";
+btn.style.color="white";
+btn.style.backgroundColor="pink";
+
+
+document.querySelector("body").prepend(btn);
+//let div=document.querySelectorAll("div");
+//div.append(btn)
+//
+
+
+
+let para=document.querySelector("p")
+para.getAttribute("class")
