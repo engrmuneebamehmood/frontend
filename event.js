@@ -30,6 +30,7 @@ mode.addEventListener("click",()=>{
         current="light"
     }
     console.log("mode changed");
+    
 
 })
    
