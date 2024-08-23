@@ -17,8 +17,8 @@ function myapi(){
 
         console.log(" i am an api");
         //resolve("data fetch successfully");
-        //resolve(200)
-        reject("oh no")
+        resolve(200)
+        //reject("oh no")
         },2000)
         
 })
